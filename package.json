@@ -1,0 +1,17 @@
+{
+  "name": "express-jwt-cookies-demo",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Express demo of JWT authentication using HTTP-only cookies and an in-memory users array",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
